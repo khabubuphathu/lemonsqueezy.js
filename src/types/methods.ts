@@ -212,7 +212,7 @@ export interface GetOrdersOptions extends PaginatedOptions {
   /**
    * Filter orders by email address
    */
-  userEmail?: number;
+  userEmail?: string;
 }
 
 export interface GetOrderOptions {

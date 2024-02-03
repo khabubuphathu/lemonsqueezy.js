@@ -462,7 +462,7 @@ export class LemonSqueezy {
    *
    * @param {Object} [params]
    * @param {number} [params.storeId] Filter orders by store
-   * @param {number} [params.userEmail] Filter orders by email address
+   * @param {string} [params.userEmail] Filter orders by email address
    * @param {number} [params.perPage] Number of records to return (between 1 and 100)
    * @param {number} [params.page] Page of records to return
    * @param {Array<"customer" | "discount-redemptions" | "license-keys" | "order-items" | "store" | "subscriptions">} [params.include] List of record types to include
